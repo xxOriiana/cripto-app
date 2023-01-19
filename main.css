@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+body {
+    background-color: turquoise;
+    background-image: url(./img/Untitled\ design.png);
+}
+
+h1{
+    display: grid;
+    place-items: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+th,
+td {
+    padding: 8px;
+    /* text-align: left; */
+    text-align: center;
+    border: 1px solid #ce78782d;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+.name-price-cell {
+    line-height: 75px;
+    font-size: 12px;
+}
+
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 25%;
+}
+
+
+#buy-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 255, 0.582);
+    color: white;
+}
+
